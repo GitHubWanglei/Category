@@ -16,7 +16,13 @@
 /** 重绘图片, 设置圆角, 防止离屏渲染 */
 - (UIImage *)scaleImageToSize:(CGSize)size cornerRadius:(CGFloat)radius;
 
-/** 重绘缩放图片 */
+/** 重绘图片至指定尺寸大小 */
 - (UIImage *)scaleToSize:(CGSize)size;
+
+/** 获取GIF图片中所有帧 */
+- (NSMutableArray<UIImage *> *)framesWithGIFImageData:(NSData *)imageData;
+
+/** GIF图片动画持续时间 */
+- (float)durationWithGIFImageData:(NSData *)imageData;
 
 @end

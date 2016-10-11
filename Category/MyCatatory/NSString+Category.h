@@ -20,7 +20,7 @@
 - (CGFloat)sizeWithMaxWidth:(CGFloat)width FontOfSize:(CGFloat)fontOfSize;
 
 /** 将字符串中的某段文字设置为某种颜色, 并返回富文本字符串 */
-- (NSMutableAttributedString *)attributedStringWithColor:(UIColor *)color addColor:(UIColor *)addColor range:(NSRange)range;
+- (NSMutableAttributedString *)attributedStringWithColor:(UIColor *)color partialColor:(UIColor *)partialColor partialRange:(NSRange)partialRange;
 
 /** 将字符串中的某段文字替换为表情图片, 并返回富文本字符串 */
 - (NSMutableAttributedString *)attributedStringWithImage:(UIImage *)image size:(CGSize)size replaceRange:(NSRange)range;

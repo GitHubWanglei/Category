@@ -29,10 +29,10 @@
     return [self sizeWithMaxSize:CGSizeMake(width, MAXFLOAT) FontOfSize:fontOfSize].height;
 }
 
-- (NSMutableAttributedString *)attributedStringWithColor:(UIColor *)color addColor:(UIColor *)addColor range:(NSRange)range{
+- (NSMutableAttributedString *)attributedStringWithColor:(UIColor *)color partialColor:(UIColor *)partialColor partialRange:(NSRange)partialRange{
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self];
     [attributedString addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(0, self.length)];
-    [attributedString addAttribute:NSForegroundColorAttributeName value:addColor range:range];
+    [attributedString addAttribute:NSForegroundColorAttributeName value:partialColor range:partialRange];
     return attributedString;
 }
 

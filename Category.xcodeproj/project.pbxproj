@@ -21,7 +21,7 @@
 		61ABBB941D49A61100929666 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ABBB931D49A61100929666 /* NSString+Category.m */; };
 		61ABBB981D49E2CC00929666 /* [face].png in Resources */ = {isa = PBXBuildFile; fileRef = 61ABBB971D49E2CC00929666 /* [face].png */; };
 		61C9FCB71D5C5CF500E335BC /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C9FCB61D5C5CF500E335BC /* UIImage+Category.m */; };
-		61FA34CB1D5C6368002FA553 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61FA34CA1D5C6368002FA553 /* image1.png */; };
+		61FA34CB1D5C6368002FA553 /* [image1].png in Resources */ = {isa = PBXBuildFile; fileRef = 61FA34CA1D5C6368002FA553 /* [image1].png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		61ABBB971D49E2CC00929666 /* [face].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[face].png"; sourceTree = "<group>"; };
 		61C9FCB51D5C5CF500E335BC /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		61C9FCB61D5C5CF500E335BC /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
-		61FA34CA1D5C6368002FA553 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		61FA34CA1D5C6368002FA553 /* [image1].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[image1].png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				6131F7D31D499B9200EB2F7C /* ViewController.m */,
 				6105E8701D508D65005F8A60 /* SecondViewController.h */,
 				6105E8711D508D65005F8A60 /* SecondViewController.m */,
-				61FA34CA1D5C6368002FA553 /* image1.png */,
+				61FA34CA1D5C6368002FA553 /* [image1].png */,
 				61ABBB971D49E2CC00929666 /* [face].png */,
 				6131F7D51D499B9200EB2F7C /* Main.storyboard */,
 				6131F7D81D499B9200EB2F7C /* Assets.xcassets */,
@@ -186,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6131F7DC1D499B9200EB2F7C /* LaunchScreen.storyboard in Resources */,
-				61FA34CB1D5C6368002FA553 /* image1.png in Resources */,
+				61FA34CB1D5C6368002FA553 /* [image1].png in Resources */,
 				6131F7D91D499B9200EB2F7C /* Assets.xcassets in Resources */,
 				61ABBB981D49E2CC00929666 /* [face].png in Resources */,
 				6131F7D71D499B9200EB2F7C /* Main.storyboard in Resources */,
